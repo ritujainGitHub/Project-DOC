@@ -1,0 +1,914 @@
+
+
+HR Outsourcing & Solutions (HRO&S)
+[Client] Service Delivery Process (SDP) Daily Asset Reconciliation
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+©2014 Xerox Corporation. All rights reserved. Xerox® and Xerox and Design® are trademarks of the Xerox Corporation in the United States and/or other countries.
+Other company trademarks are also acknowledged.
+This document is produced for Xerox [Project Name] Management and cannot be reproduced or distributed to any third party without prior written consent.
+No part of this document may be modified, deleted, or expanded by any process or means without prior written permission from Xerox.
+
+ 
+[How to Best Use This Document]
+[Text that is blue and is enclosed in square brackets indicates instructions, sample text, or requests information. The purpose of blue text is to help the author complete a document. The author will either fill in bracketed text or remove it altogether. If filling in or modifying the blue text, remove the square brackets and change the blue text to be black. To make text black and not lose the paragraph style, select the text followed by Ctrl+Space Bar.
+For additional assistance, send an e-mail message to [HRS-SPARK-ITS-Help@xerox.com].
+Note
+The styles in this template have been modified to eliminate the Xerox Sans font. Additionally, each new chapter starts with a page break instead of an odd section break. These are temporary changes that will be reversed for the final client deliverable.]
+Revision History
+[The version number on the cover page, in the header, and the last entry in the Revision History table must always match. The initial version number is always 0.1 just as the template is set up. When there is more than one author, the authors’ names are separated by a slash “/.”]
+Version Number	Date	Description	Author
+[0.1]	[mm/dd/ccyy]	[Details regarding changes made to document, including section(s) and paragraph(s) affected.]	[First and Last Name]
+1.0	1/1/2013	Initial Customization	
+1.1	2/19/2014	Rebranding with new Xerox Connector	
+			
+			
+Configuration of This Document
+This document is under [full or limited] configuration management. See Configuration Items List.
+ 
+Table of Contents
+[To update the table of contents, place cursor inside the table of contents, press F9 key, select Update entire table, and click OK.]
+[How to Best Use This Document]	i
+Revision History	i
+Configuration of This Document	i
+1.0	Service Delivery Process (SDP) Catalog	1
+2.0	Process Overview	2
+2.1	DC – Daily Asset Reconciliation Service Delivery Process	2
+2.2	Purpose of Process	2
+2.3	Process Scope	2
+2.4	Process Information	3
+3.0	Process Details	4
+4.0	Process Flow, Detail Process Steps and Exception Processing	5
+4.1	Process Flow	5
+4.1.1	Process Overview	5
+4.2	Process Flow Diagram	7
+4.3	Detailed Process Steps to Daily Asset Reconciliation Process	8
+4.3.1	Manual Reconciliation	8
+4.3.2	Reconciliation on Recon Plus	16
+4.4	Exception Processing	41
+5.0	QA Check List	42
+
+ 
+1.0	Service Delivery Process (SDP) Catalog
+SDP Code:	SDP Title:
+Process Owner	Vivek Bhardwaj
+Reviewer / Approver	Josh Hokrein / Joseph Curci
+Xerox Offshore Manager	Iftikar Ahmed
+Xerox Onshore Manager	John Petryszyn
+Version	1.0
+ 
+2.0	Process Overview
+2.1	DC – Daily Asset Reconciliation Service Delivery Process
+2.2	Purpose of Process
+The Daily Asset Reconciliation is done on a daily basis to ensure that the prior day’s closing cash and securities position on the recordkeeping system reconciles to the prior day’s closing cash and securities position on the trustee system. In the process the reconciliation team will also identify any variances, report/age variances, and ensure that they are resolved. It includes:
+•	Obtaining Trust reports and RKS reports
+•	Comparing the closing end of day share balance between records and trust
+•	Disclosing and documenting the variances between the two systems
+•	The Daily Asset Reconciliation is then forwarded to the appropriate Trust and Recordkeeping Operations Team
+2.3	Process Scope
+The reconciliation is completed when the Trust data entered in matches with the Trust Closing Balance.
+The Daily Asset Reconciliation is completed in compliance with internal operating procedures to track share variances and to ensure any required corrective action is processed on a timely basis thereby limiting financial exposure. It includes:
+1.	Obtaining Trust reports and RKS reports
+2.	Reconciling all transactions in the assigned account
+3.	Unresolved items have been aged according to pre-established standard
+
+2.4	Process Information
+Start Activity	Obtaining reconciliation date’s RKS and Trust reports	End Activity	Completed reconciliation has been saved in the respective plan folder on shared drive or has been distributed to concerned parties.
+			
+Upstream Process	Downstream Process
+Source	Mode	Input	Output	Mode
+-	Email
+-	Reconciler	-	RKS report via email
+-	Trust report via email or website	-	Ending share balance of both RKS and Trust
+-	Pending activity /dividends from RKS report	-	If reconciliation balance to zero, Save the reconciliation to the Common drive in the ‘Positions recon Live’ folder in H: drive
+-	If reconciliation doesn’t balance to zero, Identify the discrepancy & rectify it	-	Excel spreadsheet for Manual reconciliation
+-	PDF for reconciliation on Recon Plus Tool
+				
+				
+				
+ 
+3.0	Process Details
+Process Trends
+Frequency	Daily
+Timing	[Time of day]
+Volumes	54 plans per day
+Pattern	-
+Month	Volume per month (max or min)
+-	-
+-	-
+-	-
+Interfacing Processes
+1	-
+2	-
+3	-
+Required Tools (systems, applications or inputs required to complete the process)
+Tools	Procedural Use
+Microsoft Excel	Used to roll forward the previous reconciliation
+Acrobat Reader	Used to access the Trust report
+MS Outlook	Used to notify Onshore team, Record-Keeper & the Trust Team after completing the reconciliation
+Omni Station	Used to research variances
+Recon Plus	Used for Asset Reconciliation
+ 
+4.0	Process Flow, Detail Process Steps and Exception Processing
+4.1	Process Flow
+Below steps provides the analyst with overview of end-to-end process.
+1.	Obtaining reconciliation date’s RKS and Trust reports
+2.	Data entry for ending shares balances on RK and Trust along with pending activity
+3.	Explaining the variances arising thereof as per accepted norms
+4.	Sign-off from processer and reviewer
+5.	Sending the recon to the interested parties
+4.1.1	Process Overview
+Article I.	Based upon internal operating policies each reconciler has the following responsibilities for each account they are assigned.
+1.	Reports – Extracting the trust report from the trustee website and obtaining the RKS report/IFC (Investment Fund Control)
+2.	Data Entry – After preparing the template, data entry is to be done from the record keeping report and the Trust report into the respective tabs
+3.	Analysis of Variances & Researching – After completing the data entry it would be clear as to which all funds have Variances. Start researching the variances from the Recordkeeping system and the trust
+4.	Documenting – Once the research is completed, start documenting the variances with standard descriptions
+5.	Formatting – Format the reconciliation as per the formatting guidelines
+6.	Distribution – After completing the reconciliation send it to the interested parties
+7.	Posting the Reconciliation –  Save the reconciliation thus completed to the common drive in the respective plan folder along with supporting
+ 
+4.2	Process Flow Diagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+4.3	Detailed Process Steps to Daily Asset Reconciliation Process
+Broadly categorizing the Asset plans are completed either manually or using the Recon plus Tool. Thus Asset Reconciliation can be bifurcated as per tools used to reconcile them.
+4.3.1	Manual Reconciliation
+
+1.	Open the spreadsheet for particular plan for the month, which is saved in H drive (Citrix environment) H:\Positions Recon – LIVE\Assets
+2.	After opening the spreadsheet for a specific plan, enter all the amounts from IFC & Trust report in two different tabs of spreadsheet
+2.1.	The Recordkeeping data can be extracted from IFC report or Omni
+2.2.	The IFC report used for RK data entry, from which the respective closing units and pending activities for all the funds are extracted
+2.3.	The image shown here is an example of ACS Savings Plan
+
+
+
+
+
+
+
+
+ 
+
+3.	Log-on to Omni workstation. Use Commit ID as the username and associated password
+3.1.	Every Plan has a file set which needs to be entered before entering any plan in Omni station
+
+
+
+
+
+
+
+4.	FNFCINQ screen gives the ending share balances of all the funds as shown below. A print screen of this screen needs to be saved in the respective plan folder in the word format
+
+
+
+
+
+
+
+
+ 
+
+5.	HIBRBR screen is used to extract pending activities for all the Omni plans .After entering information in all the fields and the fund followed by (*), press F9 or refresh to extract the desired data
+
+
+
+
+
+
+
+6.	The ending share balances extracted from IFC report/Omni are entered in RKS/Omni tab for all the funds below the reconciliation date
+
+
+
+
+
+
+
+7.	Trust data is collected from report downloaded from workbench (BNY Mellon). Username and password are entered to fetch report from workbench
+
+
+
+
+
+
+
+8.	To access the reports already created, go to saved reports
+
+
+
+
+
+
+
+9.	Select the plan for which trust report is to be extracted
+
+
+
+
+
+
+
+10.	Click on the link of plan for which trust report is to be downloaded
+
+
+
+
+
+11.	The report which was extracted last time will be generated and will look like as below
+11.1.	Edit parameters is selected to generate the current date report
+
+
+
+
+
+
+
+12.	For generating the trust report for reconciliation’s date we need to select prior weekday and select all the funds required by applying modify filter
+Note: The trust report generated can be asset detail by currency or asset type
+12.1.	For generating the report, report option is selected from view/export data menu
+
+
+
+
+
+
+
+
+ 
+
+13.	The reconciliation date’s report is generated, however for loan fund current date’s report is generated
+
+
+
+
+
+
+
+14.	The report thus generated is saved in the respective plan’s folder in the shared drive
+
+
+
+
+
+
+
+15.	For Trust, it is known as ZTRBBS. All the ending share balances extracted from Trust report are entered in ZTRBBS tab for all the funds below the reconciliation date
+
+
+
+
+
+
+
+16.	After entering the closing balances from IFC & Trust report, move to the date tab, i.e. tab of specific date for which reconciliation is to be completed
+16.1.	While creating tab for the particular date simply move or copy the previous date’s tab and in that sheet, change the date cell using reference. update the references for the closing balances for IFC and trust
+
+
+
+
+
+
+
+
+17.	In Reconciliation, usually there are two situations; Some funds are balanced and some are not
+17.1.	Situation A: Some funds are balanced
+17.1.1.	That is the closing balance of IFC & Trust report is either netting to zero or the difference should come to third or fourth decimal of share/unit)
+17.1.2.	Add the difference amount in the “Breakage” cell for that specific fund
+
+
+
+
+
+
+
+ 
+
+17.1.3.	To zero out that variance, same amount will be entered in “Breakage” cell with opposite sign
+
+
+
+
+
+
+
+
+17.2.	Situation B: Some funds are not balanced
+17.2.1.	That is the closing balance of IFC & Trust report is neither netting to zero nor the difference is not coming to third or fourth decimal of share/ unit
+17.2.2.	Explain the variances that has occurred after entering the values from the IFC and Trust in the particular fund
+17.2.3.	For research, we need to check all the transaction that has occurred in that day (on IFC), we will explain each and every transactions those are creating variances
+17.2.4.	While explaining the variances we explain the consolidated amount in one single cell as “pending trade”
+17.2.5.	The end result of reconciliation should be adjusted variance for all the funds as zero
+
+
+
+
+4.3.2	Reconciliation on Recon Plus
+Reconciliation on Recon Plus entails stock funds which includes all the necessary steps required in all the other plans.
+1.	Check whether the data has been uploaded on recon plus by going into match session statistics from matching option
+
+
+
+
+
+
+
+2.	After clicking on match session statistics this screen appears and check whether the two reports are reflecting for the reconciliation date
+
+
+
+
+
+
+
+
+ 
+
+3.	Now we run the report of the plan for which reconciliation is to be Dominion hourly in this case by going into Recon accounts option from Recon menu
+
+
+
+
+
+
+
+4.	This window appears where are two options of Cash/check reconciliation for STIF (cash) and Trade securities reconciliation for security (shares) respectively
+
+
+
+
+
+
+
+5.	Raw copy of Both STIF piece, as well as, security piece, needs to be downloaded from recon plus and saved in the recon plus training folder in the H: drive
+
+
+
+
+
+ 
+
+6.	Click on Pool Selection
+
+
+
+
+
+
+
+7.	Go to Recon Wizard and select the Reconciliation Type
+7.1.	Specify the Item Reconciliation field
+
+
+
+
+
+
+
+8.	Select the Reconciliation Date
+
+
+
+
+
+
+
+9.	Click on the desired radio button for Account balances
+
+
+
+
+
+
+
+10.	Specify when and where you want to run the reconciliation
+
+
+
+
+
+
+
+11.	Click on Finish to run the reconciliation report
+
+
+
+
+
+
+
+ 
+
+12.	The Raw report of STIF piece looks like as shown in the screen shot
+
+
+
+
+
+
+
+13.	The file thus extracted from recon plus is saved in the respective plan folder of shared drive
+
+
+
+
+
+
+
+14.	The security piece is extracted in the same manner as the STIF piece
+
+
+
+
+
+
+
+15.	For Dominion plans, go to the 0-IASA Asset Test Dominion
+
+
+
+
+
+
+
+16.	Select the required Dominion plan from the drop down menu
+
+
+
+
+
+
+
+17.	Raw security piece will look like as shown here
+
+
+
+
+
+
+
+ 
+
+18.	The raw security piece thus extracted is saved in the respective plan folder in the shared drive
+
+
+
+
+
+
+
+19.	For opening STIF piece select cash from the available settings and views on recon plus
+
+
+
+
+
+
+
+20.	For opening the STIF piece select plan from Balance pool drop down menu
+
+
+
+
+
+
+21.	Go to Stock Fund STIF
+
+
+
+
+
+
+
+
+
+
+
+
+
+22.	The STIF piece on recon plus looks like as shown in the screen shot
+22.1.	Select the Stock Fund STIF piece view from available views
+
+
+
+
+
+
+
+
+ 
+
+23.	Go to extreme right and double click on the Match ID for sorting the outstanding items and matched items
+
+
+
+
+
+
+
+24.	The items showing -1 as Match ID represents the outstanding items as shown in the screen shot
+
+
+
+
+
+
+
+25.	Work only on the outstanding items of reconciliation’s date
+
+
+
+
+
+
+26.	Select securities from Available groups for opening security piece on recon plus
+
+
+
+
+
+
+
+27.	Select securities from Available views and Security transaction view from the common view to be dragged on the security piece
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+28.	Select the plan from private group created on which reconciliation is to be done
+
+
+
+
+
+
+
+29.	The security piece on recon plus looks like as shown in the figure. Look for the fund trust number of the fund on which reconciliation is to be done
+
+
+
+
+
+
+
+30.	On daily basis the fractional shares for 4 days prior created settles on STIF piece i.e., their cash ($) amount comes on STIF piece. After verifying the $ amount of security piece with the STIF piece of settle date, the fractional shares of settle date are either Split or matched with the Capital FRACTIONAL SHARES
+
+
+
+
+
+31.	Splitting two entries: First of all we need to select all the transactions that are needed to be split or added together. The item to be added is known as child item whereas, the item in which the child item is to be added is known as parent item
+
+
+
+
+
+
+
+32.	After selecting all the items to be split, right click on any entry it will show a drop down menu. Select Split item as shown in the screen shot
+
+
+
+
+
+
+
+
+ 
+
+33.	After selecting the split item option the following window opens, Select create new child item
+
+
+
+
+
+
+
+
+34.	Then, put the total of shares (quantity) and cash (Amount Value) shown at the bottom of the screen and the description in the comment field
+34.1.	After inserting the correct values in the respective fields click on Done
+
+
+
+
+
+
+
+
+
+
+
+
+35.	The following window appears asking to add the current item, click on Yes
+
+
+
+
+
+
+
+
+36.	Again click on Edit create new child item to pass the reversal
+
+
+
+
+
+
+
+
+ 
+
+37.	In the window thus opened change trade debit into credit and vice versa, buy into sell and vice versa
+37.1.	Enter the difference amount displayed at the bottom of the main window and click on done
+
+
+
+
+
+
+
+
+38.	If the Difference of cash and shares shown at the bottom of the window is zero that confirms the split activity is carried in an appropriate way and then click on perform split. Else make the changes to arrive at zero difference of cash and share
+
+
+
+
+
+
+
+
+ 
+
+39.	After that select all the transaction (T-1) number of corresponding entries with it reversal to remove the entries from security piece
+
+
+
+
+
+
+
+
+40.	Once selected the cash and share total will show zero balance at the bottom of the screen
+40.1.	For Matching use command ALT+M after which the following window opens and click OK
+
+
+
+
+
+
+
+
+
+ 
+
+41.	Pending activity on daily basis is created separately for item type Buy and Sell by splitting the entries. Pending activity excludes any manual entry and Stock Distribution entries
+
+
+
+
+
+
+
+42.	Cash and share transactions for settling the pending activity created earlier appears on trust side
+42.1.	Match (ALT + M) pending activities with the corresponding trust transactions to create the fractional shares for the corresponding date
+
+
+
+
+
+
+
+
+ 
+
+43.	Right click on the item arrived at after matching. Right click on it and enter the description in the Comment Field
+
+
+
+
+
+
+
+
+44.	Select all the settle date transaction on STIF piece and Split and Match as the case may be to create Fractional Cash for the settle date
+44.1.	Split activity is carried in the similar manner on STIF piece as the security piece. Except the share amount does not appear on STIF piece
+
+
+
+
+
+
+
+
+ 
+
+45.	The fractional Cash of settle date thus created needs to be split or matched into the capital FRACTIONAL CASH
+
+
+
+
+
+
+
+
+46.	Transactions on STIF piece (cash report) need to be labeled by date
+46.1.	Click on the item to be labeled and enter the date on the Status/Action item field. Don’t label Commitment to sell, manual entries, dividend transactions etc.
+46.2.	For Investment election transfers Credit transaction label effective date+1 date (Business day) and for rest of the entries label the date same as effective date
+
+
+
+
+
+
+
+ 
+
+47.	After completing the security piece and STIF piece of the stock fund along with other funds are saved in respective plan folder in the shared drive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+4.3.2.1	Line of Variance
+
+1.	Unsettle trade transaction item type Buy or Sell having book date and effective date as reconciliation date and current date respectively should explain the bottom line variance
+2.	Unsettle trade transaction item type Buy having both book date as well as effective date as reconciliation date should explain the bottom line variance
+3.	Unsettle trade transaction item type Sell having both book date as well as effective date as reconciliation date should explain the top line variance
+4.	All the prior date (as/of) transactions should explain top line variance
+5.	Dividends transactions should explain top line variance
+
+
+
+
+
+
+
+
+The difference between the unsettle trade transaction and top line/bottom line variance should not be greater than 1 share unless it is the pattern of the fund
+
+
+
+
+
+
+
+
+ 
+
+4.3.2.2	Creating a Pivot Group
+
+1.	Go to View Group Mgmt or simply press F5 and press New Group option
+
+
+
+
+
+
+
+
+2.	Enter the name of the plan for which private group is to be created, select securities and private group from the drop down menu
+
+
+
+
+
+
+
+
+ 
+
+3.	Click on Add new and enter the fund trust number as shown below and click on OK
+
+
+
+
+
+
+
+
+4.	Again click on add new, Select item state and outstanding from the drop down menu then click on OK. New private group will be added to the private group account
+
+
+
+
+
+
+
+
+
+ 
+
+4.3.2.3	Dividends
+
+Most plans have funds that pay dividends each month and these create variances that would be identified separately from pending trades and other activity on the manual reconciliation.
+Dividends are prepaid during the month to participants who withdraw or transfer from these funds. Generally, at month-end, the entire dividend is allocated to all participants who hold shares in the fund.
+The dividend that is allocated to participants on RKS is compared to the dividends that are posted to the trust and the difference is labeled as a dividend true-up (if trust dividend is higher than RKS)  or a dividend true-down (if trust dividend is lower than RKS) the reconciliation.
+Pre-paid Dividends
+These pre-paid dividends are posted to participant accounts that transfer, terminate or process a withdrawal out of an accrual fund prior to month-end (The participants who leave the fund before the month end are paid these dividends).
+The dividends have not been paid to the fund family but are pre-paid to the participants at the time their money is withdrawn. Prepaid dividends will be posted during the month for accrual funds. The dividends have been posted to RKS but not to IAS (trust) and will be reflected as a line item on the reconciliation
+The transactions for the pre-paid dividends will be one of the following:
+•	404/004 (dividend due to a termination)
+•	444/004 (dividend due to a withdrawal)
+•	381/004 (dividend due to a transfer out)
+Reflect the pre-paid dividends as a one line item on the reconciliation. The dividends should be labeled as “Month pre-paid dividends on RK” where the “Month” is the current month you are reconciling.
+For example, for the month of January, you would hold “January PPD.” As the pre-paid dividends are posted to RKS during the month the dividends will be added to the existing dividend amounts within the pre-paid dividend cell creating a history of the transactions.
+
+ 
+
+Accrual\Allocated Dividends
+On the last business day of the month, dividends will be posted on RKS via a T207/004 or T219/004 (Accrual/Allocated dividends) transaction/activity code to the participant accounts with existing fund balances.
+•	207/004 (Monthly Dividends)
+•	219/004 (Equity Dividends)
+The dividends will be posted on RKS Once this transaction is posted it will be entered on the reconciliation with a description of “Monthly / Equity Divs”, where “Date” is the last business day’s date.
+For example, for June, you would hold the item labeled “June’ 08 Monthly / Equity Divs”.
+
+Dividends True up/down
+When the dividends gets settle on trust, the difference / remainder will be labeled as “Dividends True up” if the difference is higher on Trust side and “Dividends True down” if the difference is higher on RK side.
+Residual shares balance will be trued-up or down by the record keeper by posting the T205/004 transaction on RKS and reported as such on the reconciliation.  205/004 is labeled as “Dividends True Up/down”.
+The 205/004 transactions are used to remove the old “Dividends True Up” or “Dividends True Down”.
+4.4	Exception Processing
+In asset reconciliation the special cases are:
+•	STOCK FUNDS: The manner of reconciling it along with the step by step procedures is explained above
+•	LOAN FUNDS: Loan fund in asset reconciliation recon plus plan is reconciled without any breakage except if it the pattern of the plan and the code for buy and sell transaction is different from the rest of the plan
+•	ADJUSTMENTS: Sometimes as per the direction of the admin team an unresolved issue/open item is mentioned as adjustment in prescribed format
+•	PREPAID DIVIDEND S: These are basically the dividend posted on the trust
+ 
+5.0	QA Check List
+Process Step	Check Point	Process Risk	Critical/Non Critical
+(Low, Medium, High)	Frequency
+Breakage	On any particular day, it should not exceed 1 share unless and until it is the pattern	Incorrect reporting	High	Daily
+Reports	-	Ensure that the Date and Client are correct
+-	Ensure that the Closing units of RKS is matching with Outstanding shares posted on Trust which is justified by the pending activity	Incorrect reporting	High	Daily
+System updates on Recon Plus tool	Ensure that both the reports in Match session statistics are updated	Correct balances will not reflect on our reconciliation	High	Daily
+Email intimation	Ensure that there is no Client intimation email regarding system updates and adjustment	Incorrect balances and it might lead to rework	High	Daily
+Fund changes	Any addition, closure or merger of funds has been looked into	Incorrect reporting	High	Daily
+Formula and Linkages	Ensure that the formulas and linkages in the reconciliation sheet are correct	Incorrect reporting	High	Daily
+Syntax	Appropriate description of the variance consistently	Incorrect Formatting	High	Daily
+Distribution	Completed reconciliation has been saved in the respective plan folder and sent to concerned parties	Incomplete processing	High	Daily
+ 

@@ -1,0 +1,69 @@
+Create XML Configuration run time date wise and client wise: //DailyRecon/Internalconfiguration/Date/Client<Date>_Iteration_<Incremental Number>_Success/Failure.XML
+a.	Today date   		<->	Get Current Date
+b.	Client Name 		<-> 
+c.	Trust Name  		<->
+d.	Is RKS file available at Required location:
+e.	Is Read RKS 1/2/3     	<->  	Checking all the required field are read or not client wise XML configuration.
+f.	Is Trust file available at Required location:
+g.	Is Read Trust 1/2/3	<->  	Checking all the required field are read or not from client wise XML configuration.
+h.	Is Read Loan File 	<->  	If required check with main XML configuration file. 
+i.	Reconciliation done
+j.	Reconciliation done on <-> Time
+k.	reconciliation not done due to <->
+l.	Exception if any		<->
+m.	Send it to required DL
+n.	Send it to required DL on <-> Time
+
+Reporting Format (One file is created day wise for all client) on //DailyRecon/Reports/ ReconciliationStatus<Date>.txt
+a.	Date
+b.	Client Name
+c.	Trust Name
+d.	Reconciliation done
+e.	Reconciliation done on
+f.	reconciliation not done due to
+g.	Send it to required DL
+h.	Send it to required DL on
+
+Error Log format (File is created client wise) on //DailyRecon/Log/DateWiseFolder/ClientName/Log-Date.txt
+a.	Date / Client
+b.	Log Type
+c.	Log Description
+
+
+
+Main configuration text file (MainConfig.txt) on //DailyRecon/Application folder/MainConfig.XML
+Date        : Current Date/Date
+Client      : All/Name of Client (in case multiple | separated)
+Mod        : Is routing run/re-run |<-><-> 0/1
+Log Mod: Verbose/Warning/Exception/Error
+File Format:
+//Source/<Daywise folder>/Trust_Name_Date.pdf/xls
+//Source/<Daywise folder>/RKS|Omini_Name_Date.pdf/xls
+//Source/<Daywise folder>/RKS|Omini_Name_Loan_Date.pdf/xls
+Top most one XML File:
+a.	Client Name : Boeing DC
+b.	Trust Name : StateStreet
+c.	File Path RKS/Omini : Boeing Client\RKs\P74701_ACTRPT.pdf
+d.	File Path Trust:
+e.	File Format for Trust:
+f.	File Format for RKS/Omini : PDF
+g.	Field Mapping XML Path : 
+h.	Is Loan Fund applicable
+i.	Is Loan Fund applicable in separate file
+j.	Loan Fund File Path RKS/Omini
+k.	Loan Fund File Path Trust
+
+
+Field mapping XML for Boeing DC:
+RKS Source FundName : 
+RKS Destination FundName:
+Field to be Read : Closing Unit
+RKS loan Field:  Closing balance
+RKS Loan Destination:
+Trust Source FundName:
+Trust Source FundNumber:
+Trust Source Class:
+Trust Destination FundName:
+Trust Destination FundNumber:
+
+
